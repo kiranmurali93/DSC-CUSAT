@@ -20,12 +20,12 @@ body{
     padding-bottom: 10px;
 }
 .hero-section img {
-    width: 100%;
+    height: 70%;
     margin-left: 50%;
     transform: translate(-50%,-20%) scale(0.75);
     -webkit-transition: 0.6s ease;
     transition: 0.6s ease;
-    
+    z-index: -10;
 }
 
 .hero-section img:hover{
@@ -42,7 +42,18 @@ body{
 .hero-text{
     padding-left: 10%;
     padding-top: 5%;
-    
+    z-index: 5;
+    transform: scale(0.9);
+    font-weight: bold;
+}
+/*End of Hero Section Styles*/
+
+/*Responsive Properties*/
+@media only screen and (min-width: 400px) {
+    .hero-section img {    
+    margin-top: 10px;
+    transform: translate(-50%,-20%) scale(0.6);    
+    }
 }
 
-/*End of Hero Section Styles*/
+/*End of Responsive Properties*/
