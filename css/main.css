@@ -13,7 +13,7 @@ body{
 
 .hero-section{
     padding-top: 10%;
-    background: url("images/hero-bg.svg");
+    background: url("/images/hero-bg.svg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
