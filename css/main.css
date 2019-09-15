@@ -15,8 +15,8 @@ body{
     padding-top: 10%;
     background: url("../images/hero-bg.svg");
     background-attachment: fixed;
-    background-repeat: repeat;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 10px;
 }
 .hero-image img {
@@ -51,12 +51,17 @@ body{
 
 /*Responsive Properties*/
 
-/*
-@media only screen and (min-width: 400px) {
+
+@media only screen and (max-width: 450px) {
     .hero-section img {    
-    margin-top: 10px;
-    transform: translate(-50%,-20%) scale(0.6);    
+    width: 90vw;
+    margin-top: 20%; 
+    transform: translate(0,-20%) scale(1);
+    clip: rect(0px,100%,100%,0px);
+    }
+    .hero-section img:hover{
+        transform: translate(0,-20%) scale(1);
     }
 }
-*/
+
 /*End of Responsive Properties*/
