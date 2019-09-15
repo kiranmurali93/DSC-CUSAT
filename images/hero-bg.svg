@@ -276,10 +276,5 @@
 	c0,1.9,0,3.8,0,5.7C362.5,432.2,362.5,432.7,362.5,433.2z"/>
 <path class="st1" d="M398.1,451.2c0,3.8-3.3,6.9-7.4,6.9c-4.1,0-7.6-3-7.6-6.9c0-3.8,3.3-6.9,7.4-6.9S398.1,447.4,398.1,451.2z"/>
 <path class="st0" d="M379.3,599"/>
-<animateTransform  accumulate="none" additive="sum" attributeName="transform" attributeType="xml" begin="0" calcMode="linear" dur="40s" fill="remove" from="360 250 250" repeatCount="indefinite" restart="always" to="0 250 250" type="rotate">
-	</animateTransform>
-<animateTransform  accumulate="none" additive="sum" attributeName="transform" attributeType="xml" begin="0" calcMode="linear" dur="20s" fill="remove" from="1.5 1.5" repeatCount="indefinite" restart="always" to="2 2" type="scale">
-	</animateTransform>
-<animateTransform  accumulate="none" additive="sum" attributeName="transform" attributeType="xml" begin="20" calcMode="linear" dur="20s" fill="remove" from="2 2" repeatCount="indefinite" restart="always" to="1.5 1.5" type="scale">
-	</animateTransform>
+<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 250 250" to="0 250 250" begin="0" dur="40s" additive="sum" repeatCount="indefinite" />
 </svg>
