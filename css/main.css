@@ -48,6 +48,9 @@ body{
     font-weight: bold;
 }
 /*End of Hero Section Styles*/
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#008000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
 /*Responsive Properties*/
 
@@ -65,3 +68,41 @@ body{
 }
 
 /*End of Responsive Properties*/
+
+/*social logo*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+  /* Facebook */
+.fa-facebook {
+    
+    color: white;
+  }
+
+  .fa-twitter {
+    
+    color: white;
+  }
+  
+  .fa-google {
+    
+    color: white;
+  }
+  
+  .fa-linkedin {
+    
+    color: white;
+  }
+
+  .fa-instagram {
+    
+    color: white;
+  }
