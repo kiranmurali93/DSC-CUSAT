@@ -26,8 +26,24 @@ body{
     transition: 0.6s ease;
     z-index: -10;
     
+
     
-    
+}
+
+#main_header{
+
+  padding: 50px;
+  transition: 2.0s;
+  width: 600;
+  height: 200;
+  margin: 0 auto;
+
+}
+
+#main_header:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1);  
 }
 
 .hero-image img:hover{
